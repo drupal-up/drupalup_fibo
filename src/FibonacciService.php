@@ -7,7 +7,7 @@ namespace Drupal\drupalup_fibo;
  */
 class FibonacciService {
 
-  protected $fiboSequence = [1, 1];
+  protected $fiboSequence = [0, 1];
 
   /**
    * Generates certain ammount of Fibonacci numbers.
